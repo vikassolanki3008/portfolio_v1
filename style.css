@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
+    background-color: black;
+    margin-bottom: 15px;
+    padding: 15px;
+    height: 50px;
+    position: sticky;
+    top: 0;
+}
+
+.navigation ul{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.navigation ul li{
+    margin-left: 20px;
+    list-style: none;
+}
+
+.navigation ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+/*
+Introduction Css
+*/
+
+.introduction{
+    margin: 2rem;
+    text-align: center;
+}
+
+.introduction h1{
+    font-size: 85px;
+}
+
+.introduction p{
+    font-size: 40px;
+}
