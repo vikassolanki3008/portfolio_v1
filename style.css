@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .navigation{
     background-color: black;
     margin-bottom: 15px;
@@ -46,4 +50,27 @@ Introduction Css
 
 .introduction p{
     font-size: 40px;
+}
+
+
+
+#aboutMe{
+    background-color: black;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 4rem;
+    
+}
+
+#aboutMe h2{
+    text-align: center;
+    font-size: 65px;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#aboutMe p{
+    padding-left: 1rem;
+    font-size: 20px;
 }
