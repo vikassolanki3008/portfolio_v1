@@ -1,6 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal
 }
 
 html{
@@ -74,3 +77,52 @@ Introduction Css
     padding-left: 1rem;
     font-size: 20px;
 }
+
+
+/*Skill section*/
+.skillLogo{
+    height: 5rem;
+    
+}
+
+.skillLogo:hover{
+    box-shadow: 0 0 20px rgba(255, 87, 34, 0.7), /* orange glow */
+            0 0 40px rgba(255, 87, 34, 0.5), 
+            0 0 60px rgba(255, 87, 34, 0.3);
+    
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+#skills{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 4rem;
+}
+
+#skills h2{
+    text-align: center;
+    font-size: 65px;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#skills ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3.5rem;
+    padding-top: 2.5rem;
+}
+
+li{
+    list-style: none;
+    
+}
+
+span {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
